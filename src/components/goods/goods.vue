@@ -2,7 +2,7 @@
 	<div class="goods">
 		<div class="menu-wrapper" v-el:menu-wrapper>
 			<ul>
-				<li v-for="item in goods" class="menu-item" :class="{'current' : currentIndex === $index}">
+				<li v-for="item in goods" class="menu-item" :class="{'current' : currentIndex === $index}" >
 					<span class="text border-1px">
 						<span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
 					</span>
@@ -34,7 +34,6 @@
 			</ul>
 		</div>
 	</div>
-
 </template>
 
 <script type="text/ecmascript-6">
