@@ -101,7 +101,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
 @import "../../common/stylus/mixin"
 .goods
 	display flex
